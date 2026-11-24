@@ -1,0 +1,10 @@
+{"event":"request","scenario":"queue","t_ms":0,"input_tokens":128,"synthetic":true}
+{"event":"prefill_start","t_ms":400}
+{"event":"prefill_end","t_ms":440}
+{"event":"token","t_ms":440,"index":1}
+{"event":"token","t_ms":470,"index":2}
+{"event":"token","t_ms":500,"index":3}
+{"event":"token","t_ms":530,"index":4}
+{"event":"token","t_ms":560,"index":5}
+{"event":"done","t_ms":560}
+{"event":"metrics","ttft_ms":440,"tpot_ms":30.0,"queue_ms":400,"prefill_ms":40,"output_tokens":5,"synthetic":true}

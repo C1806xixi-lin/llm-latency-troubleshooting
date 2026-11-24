@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="328" viewBox="0 0 1000 328" role="img" aria-labelledby="title description">
+<title id="title">TTFT and TPOT comparison, synthetic requests</title>
+<desc id="description">Baseline 60 and 30 ms; queue 440 and 30 ms; long input 920 and 30 ms; slow decode 60 and 180 ms, respectively. Each panel uses its own labeled scale.</desc>
+<rect width="1000" height="328" rx="16" fill="#f8fafc"/>
+<g font-family="system-ui, sans-serif" fill="#172554">
+<text x="24" y="38" font-size="23" font-weight="700">Why does the response feel slow?</text>
+<text x="24" y="63" font-size="14">Synthetic streaming traces • milliseconds • each panel has its own scale</text>
+<text x="170" y="102" font-size="16" font-weight="700">TTFT · First token</text>
+<text x="735" y="102" font-size="16" font-weight="700">TPOT · After first token</text>
+<text x="24" y="139" font-size="14">Baseline</text>
+<rect id="ttft-baseline" x="170" y="124" width="30" height="19" rx="3" fill="#1d4ed8"/>
+<text id="ttft-baseline-label" x="208" y="139" font-size="13">60</text>
+<rect id="tpot-baseline" x="735" y="124" width="30" height="19" rx="3" fill="#0f766e"/>
+<text id="tpot-baseline-label" x="773" y="139" font-size="13">30</text>
+<text x="24" y="179" font-size="14">Queue delay</text>
+<rect id="ttft-queue" x="170" y="164" width="220" height="19" rx="3" fill="#1d4ed8"/>
+<text id="ttft-queue-label" x="398" y="179" font-size="13">440</text>
+<rect id="tpot-queue" x="735" y="164" width="30" height="19" rx="3" fill="#0f766e"/>
+<text id="tpot-queue-label" x="773" y="179" font-size="13">30</text>
+<text x="24" y="219" font-size="14">Long input</text>
+<rect id="ttft-long-input" x="170" y="204" width="460" height="19" rx="3" fill="#1d4ed8"/>
+<text id="ttft-long-input-label" x="638" y="219" font-size="13">920</text>
+<rect id="tpot-long-input" x="735" y="204" width="30" height="19" rx="3" fill="#0f766e"/>
+<text id="tpot-long-input-label" x="773" y="219" font-size="13">30</text>
+<text x="24" y="259" font-size="14">Slow decode</text>
+<rect id="ttft-decode" x="170" y="244" width="30" height="19" rx="3" fill="#1d4ed8"/>
+<text id="ttft-decode-label" x="208" y="259" font-size="13">60</text>
+<rect id="tpot-decode" x="735" y="244" width="180" height="19" rx="3" fill="#0f766e"/>
+<text id="tpot-decode-label" x="923" y="259" font-size="13">180</text>
+<line x1="170" x2="670" y1="280" y2="280" stroke="#64748b"/>
+<path d="M170 280v5" stroke="#64748b"/><text x="170" y="301" text-anchor="middle" font-size="12">0</text>
+<path d="M295 280v5" stroke="#64748b"/><text x="295" y="301" text-anchor="middle" font-size="12">250</text>
+<path d="M420 280v5" stroke="#64748b"/><text x="420" y="301" text-anchor="middle" font-size="12">500</text>
+<path d="M545 280v5" stroke="#64748b"/><text x="545" y="301" text-anchor="middle" font-size="12">750</text>
+<path d="M670 280v5" stroke="#64748b"/><text x="670" y="301" text-anchor="middle" font-size="12">1000</text>
+<line x1="735" x2="935" y1="280" y2="280" stroke="#64748b"/>
+<path d="M735 280v5" stroke="#64748b"/><text x="735" y="301" text-anchor="middle" font-size="12">0</text>
+<path d="M785 280v5" stroke="#64748b"/><text x="785" y="301" text-anchor="middle" font-size="12">50</text>
+<path d="M835 280v5" stroke="#64748b"/><text x="835" y="301" text-anchor="middle" font-size="12">100</text>
+<path d="M885 280v5" stroke="#64748b"/><text x="885" y="301" text-anchor="middle" font-size="12">150</text>
+<path d="M935 280v5" stroke="#64748b"/><text x="935" y="301" text-anchor="middle" font-size="12">200</text>
+</g></svg>
